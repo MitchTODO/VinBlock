@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301993742A2313FD002673AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301993732A2313FC002673AA /* AppDelegate.swift */; };
+		3063CC912A21CA35004EA38E /* MintVehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063CC902A21CA35004EA38E /* MintVehicle.swift */; };
+		3081337A2A1C9A3F00F715FC /* VinBlockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308133792A1C9A3F00F715FC /* VinBlockApp.swift */; };
+		3081337C2A1C9A3F00F715FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3081337B2A1C9A3F00F715FC /* ContentView.swift */; };
+		3081337E2A1C9A4100F715FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3081337D2A1C9A4100F715FC /* Assets.xcassets */; };
+		308133812A1C9A4100F715FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 308133802A1C9A4100F715FC /* Preview Assets.xcassets */; };
+		308133882A1D2A8000F715FC /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308133872A1D2A8000F715FC /* Authentication.swift */; };
+		3081338E2A1D313000F715FC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3081338D2A1D313000F715FC /* LoginViewModel.swift */; };
+		308133902A1D33C000F715FC /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3081338F2A1D33C000F715FC /* Credentials.swift */; };
+		308133922A1D353200F715FC /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308133912A1D353200F715FC /* LoginView.swift */; };
+		308133952A1D3D2500F715FC /* Abi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308133942A1D3D2500F715FC /* Abi.swift */; };
+		308133972A1D3DDE00F715FC /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308133962A1D3DDE00F715FC /* Address.swift */; };
+		3081339F2A1D402600F715FC /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3081339E2A1D402600F715FC /* Network.swift */; };
+		308133A62A1D59AD00F715FC /* WalletServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308133A52A1D59AD00F715FC /* WalletServices.swift */; };
+		30A90E5B2A2566A5003769C9 /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A90E5A2A2566A5003769C9 /* Methods.swift */; };
+		30A90E5E2A2566CE003769C9 /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A90E5D2A2566CE003769C9 /* Wallet.swift */; };
+		30A90E602A256706003769C9 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A90E5F2A256706003769C9 /* Events.swift */; };
+		30A90E622A256CA9003769C9 /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A90E612A256CA9003769C9 /* Contracts.swift */; };
+		30A90E652A256D5F003769C9 /* ContractError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A90E642A256D5F003769C9 /* ContractError.swift */; };
+		30A90E6A2A256E18003769C9 /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A90E692A256E18003769C9 /* Balance.swift */; };
+		30AD16C52A1D6DC40044E137 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD16C42A1D6DC40044E137 /* ContentViewModel.swift */; };
+		30AD16C72A1D6DFA0044E137 /* ContractServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD16C62A1D6DFA0044E137 /* ContractServices.swift */; };
+		30AD16CC2A1D7C370044E137 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD16CB2A1D7C370044E137 /* ProfileViewModel.swift */; };
+		30AD16CE2A1D7C510044E137 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD16CD2A1D7C510044E137 /* ProfileView.swift */; };
+		30AD16D22A1DCF370044E137 /* VNFTFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD16D12A1DCF370044E137 /* VNFTFunctions.swift */; };
+		30AD16D42A1DCF450044E137 /* VNFTResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD16D32A1DCF450044E137 /* VNFTResponses.swift */; };
+		30AD16D62A1FDEEC0044E137 /* VehiclePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD16D52A1FDEEC0044E137 /* VehiclePageView.swift */; };
+		30AD16D92A1FE02E0044E137 /* VehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD16D82A1FE02E0044E137 /* VehicleView.swift */; };
+		30AD16DB2A20049E0044E137 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AD16DA2A20049E0044E137 /* Vehicle.swift */; };
+		DC28D6C742846F13FE566F1A /* Pods_VinBlock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB1D726A49036B17EE9C5DA /* Pods_VinBlock.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		301993722A231280002673AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		301993732A2313FC002673AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3063CC902A21CA35004EA38E /* MintVehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintVehicle.swift; sourceTree = "<group>"; };
+		308133762A1C9A3F00F715FC /* VinBlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinBlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		308133792A1C9A3F00F715FC /* VinBlockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinBlockApp.swift; sourceTree = "<group>"; };
+		3081337B2A1C9A3F00F715FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3081337D2A1C9A4100F715FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		308133802A1C9A4100F715FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		308133872A1D2A8000F715FC /* Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		3081338D2A1D313000F715FC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		3081338F2A1D33C000F715FC /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		308133912A1D353200F715FC /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		308133942A1D3D2500F715FC /* Abi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Abi.swift; sourceTree = "<group>"; };
+		308133962A1D3DDE00F715FC /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		3081339E2A1D402600F715FC /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		308133A52A1D59AD00F715FC /* WalletServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletServices.swift; sourceTree = "<group>"; };
+		30A90E5A2A2566A5003769C9 /* Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		30A90E5D2A2566CE003769C9 /* Wallet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		30A90E5F2A256706003769C9 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		30A90E612A256CA9003769C9 /* Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contracts.swift; sourceTree = "<group>"; };
+		30A90E642A256D5F003769C9 /* ContractError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractError.swift; sourceTree = "<group>"; };
+		30A90E692A256E18003769C9 /* Balance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
+		30AD16C42A1D6DC40044E137 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		30AD16C62A1D6DFA0044E137 /* ContractServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractServices.swift; sourceTree = "<group>"; };
+		30AD16CB2A1D7C370044E137 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		30AD16CD2A1D7C510044E137 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		30AD16D12A1DCF370044E137 /* VNFTFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNFTFunctions.swift; sourceTree = "<group>"; };
+		30AD16D32A1DCF450044E137 /* VNFTResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VNFTResponses.swift; sourceTree = "<group>"; };
+		30AD16D52A1FDEEC0044E137 /* VehiclePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclePageView.swift; sourceTree = "<group>"; };
+		30AD16D82A1FE02E0044E137 /* VehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleView.swift; sourceTree = "<group>"; };
+		30AD16DA2A20049E0044E137 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		66DFF787D12F469FA3C17837 /* Pods-VinBlock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinBlock.debug.xcconfig"; path = "Target Support Files/Pods-VinBlock/Pods-VinBlock.debug.xcconfig"; sourceTree = "<group>"; };
+		7DB1D726A49036B17EE9C5DA /* Pods_VinBlock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VinBlock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3B9000E84AAD9502F6996ED /* Pods-VinBlock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VinBlock.release.xcconfig"; path = "Target Support Files/Pods-VinBlock/Pods-VinBlock.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		308133732A1C9A3F00F715FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC28D6C742846F13FE566F1A /* Pods_VinBlock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E6FDCBD6BB70003DA416169 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66DFF787D12F469FA3C17837 /* Pods-VinBlock.debug.xcconfig */,
+				A3B9000E84AAD9502F6996ED /* Pods-VinBlock.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3063CC8F2A21C902004EA38E /* MintVehicle */ = {
+			isa = PBXGroup;
+			children = (
+				3063CC902A21CA35004EA38E /* MintVehicle.swift */,
+			);
+			path = MintVehicle;
+			sourceTree = "<group>";
+		};
+		3081336D2A1C9A3F00F715FC = {
+			isa = PBXGroup;
+			children = (
+				308133782A1C9A3F00F715FC /* VinBlock */,
+				308133772A1C9A3F00F715FC /* Products */,
+				1E6FDCBD6BB70003DA416169 /* Pods */,
+				EAA6DC645B9965631AC10F7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		308133772A1C9A3F00F715FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				308133762A1C9A3F00F715FC /* VinBlock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		308133782A1C9A3F00F715FC /* VinBlock */ = {
+			isa = PBXGroup;
+			children = (
+				30A90E632A256D4F003769C9 /* Modules */,
+				301993722A231280002673AA /* Info.plist */,
+				30AD16C32A1D6D630044E137 /* Models */,
+				308133A42A1D4B6900F715FC /* Services */,
+				308133932A1D3CF500F715FC /* Contract */,
+				308133892A1D2B3600F715FC /* Views */,
+				3081337B2A1C9A3F00F715FC /* ContentView.swift */,
+				30AD16C42A1D6DC40044E137 /* ContentViewModel.swift */,
+				3081337D2A1C9A4100F715FC /* Assets.xcassets */,
+				3081337F2A1C9A4100F715FC /* Preview Content */,
+				308133872A1D2A8000F715FC /* Authentication.swift */,
+				308133792A1C9A3F00F715FC /* VinBlockApp.swift */,
+				301993732A2313FC002673AA /* AppDelegate.swift */,
+			);
+			path = VinBlock;
+			sourceTree = "<group>";
+		};
+		3081337F2A1C9A4100F715FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				308133802A1C9A4100F715FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		308133892A1D2B3600F715FC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3063CC8F2A21C902004EA38E /* MintVehicle */,
+				30AD16D72A1FE0190044E137 /* VehicleView */,
+				30AD16C82A1D7C1A0044E137 /* Profile */,
+				3081338C2A1D312100F715FC /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3081338C2A1D312100F715FC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				308133912A1D353200F715FC /* LoginView.swift */,
+				3081338D2A1D313000F715FC /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		308133932A1D3CF500F715FC /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				308133942A1D3D2500F715FC /* Abi.swift */,
+				308133962A1D3DDE00F715FC /* Address.swift */,
+				3081339E2A1D402600F715FC /* Network.swift */,
+				30AD16D12A1DCF370044E137 /* VNFTFunctions.swift */,
+				30AD16D32A1DCF450044E137 /* VNFTResponses.swift */,
+				30A90E5A2A2566A5003769C9 /* Methods.swift */,
+				30A90E5D2A2566CE003769C9 /* Wallet.swift */,
+				30A90E5F2A256706003769C9 /* Events.swift */,
+				30A90E612A256CA9003769C9 /* Contracts.swift */,
+			);
+			path = Contract;
+			sourceTree = "<group>";
+		};
+		308133A42A1D4B6900F715FC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				30A90E682A256E08003769C9 /* Sub */,
+				308133A52A1D59AD00F715FC /* WalletServices.swift */,
+				30AD16C62A1D6DFA0044E137 /* ContractServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		30A90E632A256D4F003769C9 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3081338F2A1D33C000F715FC /* Credentials.swift */,
+				30A90E642A256D5F003769C9 /* ContractError.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		30A90E682A256E08003769C9 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				30A90E692A256E18003769C9 /* Balance.swift */,
+			);
+			path = Sub;
+			sourceTree = "<group>";
+		};
+		30AD16C32A1D6D630044E137 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				30AD16DA2A20049E0044E137 /* Vehicle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		30AD16C82A1D7C1A0044E137 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				30AD16CB2A1D7C370044E137 /* ProfileViewModel.swift */,
+				30AD16CD2A1D7C510044E137 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		30AD16D72A1FE0190044E137 /* VehicleView */ = {
+			isa = PBXGroup;
+			children = (
+				30AD16D52A1FDEEC0044E137 /* VehiclePageView.swift */,
+				30AD16D82A1FE02E0044E137 /* VehicleView.swift */,
+			);
+			path = VehicleView;
+			sourceTree = "<group>";
+		};
+		EAA6DC645B9965631AC10F7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DB1D726A49036B17EE9C5DA /* Pods_VinBlock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		308133752A1C9A3F00F715FC /* VinBlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 308133842A1C9A4100F715FC /* Build configuration list for PBXNativeTarget "VinBlock" */;
+			buildPhases = (
+				4CFF4F36F0F920DCFF316298 /* [CP] Check Pods Manifest.lock */,
+				308133722A1C9A3F00F715FC /* Sources */,
+				308133732A1C9A3F00F715FC /* Frameworks */,
+				308133742A1C9A3F00F715FC /* Resources */,
+				AE094636A47AB05B0AF302C9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VinBlock;
+			productName = VinBlock;
+			productReference = 308133762A1C9A3F00F715FC /* VinBlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3081336E2A1C9A3F00F715FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					308133752A1C9A3F00F715FC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 308133712A1C9A3F00F715FC /* Build configuration list for PBXProject "VinBlock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3081336D2A1C9A3F00F715FC;
+			productRefGroup = 308133772A1C9A3F00F715FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				308133752A1C9A3F00F715FC /* VinBlock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		308133742A1C9A3F00F715FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308133812A1C9A4100F715FC /* Preview Assets.xcassets in Resources */,
+				3081337E2A1C9A4100F715FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CFF4F36F0F920DCFF316298 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VinBlock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE094636A47AB05B0AF302C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VinBlock/Pods-VinBlock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VinBlock/Pods-VinBlock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VinBlock/Pods-VinBlock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		308133722A1C9A3F00F715FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A90E5E2A2566CE003769C9 /* Wallet.swift in Sources */,
+				301993742A2313FD002673AA /* AppDelegate.swift in Sources */,
+				308133922A1D353200F715FC /* LoginView.swift in Sources */,
+				30A90E622A256CA9003769C9 /* Contracts.swift in Sources */,
+				30A90E602A256706003769C9 /* Events.swift in Sources */,
+				30AD16D92A1FE02E0044E137 /* VehicleView.swift in Sources */,
+				30A90E652A256D5F003769C9 /* ContractError.swift in Sources */,
+				30AD16D22A1DCF370044E137 /* VNFTFunctions.swift in Sources */,
+				30AD16C52A1D6DC40044E137 /* ContentViewModel.swift in Sources */,
+				30AD16C72A1D6DFA0044E137 /* ContractServices.swift in Sources */,
+				308133902A1D33C000F715FC /* Credentials.swift in Sources */,
+				3081337C2A1C9A3F00F715FC /* ContentView.swift in Sources */,
+				308133A62A1D59AD00F715FC /* WalletServices.swift in Sources */,
+				30A90E6A2A256E18003769C9 /* Balance.swift in Sources */,
+				3081337A2A1C9A3F00F715FC /* VinBlockApp.swift in Sources */,
+				30AD16D62A1FDEEC0044E137 /* VehiclePageView.swift in Sources */,
+				30A90E5B2A2566A5003769C9 /* Methods.swift in Sources */,
+				30AD16CE2A1D7C510044E137 /* ProfileView.swift in Sources */,
+				3081339F2A1D402600F715FC /* Network.swift in Sources */,
+				3081338E2A1D313000F715FC /* LoginViewModel.swift in Sources */,
+				30AD16D42A1DCF450044E137 /* VNFTResponses.swift in Sources */,
+				308133952A1D3D2500F715FC /* Abi.swift in Sources */,
+				30AD16CC2A1D7C370044E137 /* ProfileViewModel.swift in Sources */,
+				308133972A1D3DDE00F715FC /* Address.swift in Sources */,
+				3063CC912A21CA35004EA38E /* MintVehicle.swift in Sources */,
+				30AD16DB2A20049E0044E137 /* Vehicle.swift in Sources */,
+				308133882A1D2A8000F715FC /* Authentication.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		308133822A1C9A4100F715FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		308133832A1C9A4100F715FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		308133852A1C9A4100F715FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DFF787D12F469FA3C17837 /* Pods-VinBlock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VinBlock/Preview Content\"";
+				DEVELOPMENT_TEAM = XUYDZSBQ86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VinBlock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MOT.VinBlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		308133862A1C9A4100F715FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B9000E84AAD9502F6996ED /* Pods-VinBlock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VinBlock/Preview Content\"";
+				DEVELOPMENT_TEAM = XUYDZSBQ86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VinBlock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MOT.VinBlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		308133712A1C9A3F00F715FC /* Build configuration list for PBXProject "VinBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308133822A1C9A4100F715FC /* Debug */,
+				308133832A1C9A4100F715FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		308133842A1C9A4100F715FC /* Build configuration list for PBXNativeTarget "VinBlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				308133852A1C9A4100F715FC /* Debug */,
+				308133862A1C9A4100F715FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3081336E2A1C9A3F00F715FC /* Project object */;
+}

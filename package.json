@@ -1,0 +1,14 @@
+{
+  "name": "hardhat-project",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-web3": "^2.0.0",
+    "hardhat": "^2.14.0",
+    "web3": "^1.10.0"
+  },
+  "dependencies": {
+    "@identity.com/gateway-protocol-eth": "^0.0.4",
+    "@openzeppelin/contracts": "^4.8.3",
+    "dotenv": "^16.0.3"
+  }
+}
